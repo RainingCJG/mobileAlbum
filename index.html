@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" 
+		content="width=device-width,
+			initial-scale=1,user-scalable=no" />
+	<title>移动端相册</title>
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+	<ul class="album-list" id="album-list"></ul>
+    <!-- 观看大图 -->
+    <div id="imgDetail" class="largeImg-container animated fadeInDown"
+    	style="display: none">
+    	<img id="largeImg">
+    </div>
+
+	<script type="text/javascript">
+		(function(){
+         	var html = document.documentElement;
+         	var width = html.getBoundingClientRect().width;
+         	html.fontSize = width/16 + 'px';
+		})();
+	</script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/handle.js"></script>
+</body>
+</html>

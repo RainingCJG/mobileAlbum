@@ -1,0 +1,19 @@
+/*reset*/
+html,body,div,ul,li,canvas,img{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+ul,li{
+	line-height: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.none{
+	display: none;
+}

@@ -1,0 +1,19 @@
+/*相框列表*/
+.album-list,
+.largeImg-container{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+.album-list > li{
+	float: left;
+}
+
+/*大图*/
+.largeImg-container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
